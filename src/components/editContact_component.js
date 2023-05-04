@@ -75,7 +75,7 @@ const EditContact = (props) => {
                         <tbody>
                         {/* name */}
                         <tr>
-                            <th>update: </th>
+                            <th>Name: </th>
                             <td>
                                 <input type="text" placeholder='Name' name="name" value={inputValue.name} onChange={(e) => handleChangeInput(e)} required/>
                             </td>
